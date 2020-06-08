@@ -6,5 +6,11 @@ Item: "Ana"
 
 Em seguida, mostre no console.log()*/
 
+
 professoras.unshift("Maria")
 console.log(professoras);
+
+professoras.unshift("Ana");
+
+console.log(professoras);
+

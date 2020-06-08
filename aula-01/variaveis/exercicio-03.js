@@ -1,11 +1,23 @@
 // Armazene separadamente, todos os tipos de dados que aprendeu até hoje.
 
-const string = "nomes";
+let nomeColaboradora = "Jenifer";
+console.log(typeof (nomeColaboradora));
 
-const number = 100;
+let idade = 30;
+console.log(typeof (idade));
 
-const float = 3.14
+let numeroPi = 3.14;
+console.log(typeof (numeroPi));
 
-const booleano = "true/false"
+let ehVisivel = true;
+console.log(typeof (ehVisivel));
+
+const numeroFluante = parseFloat(3.2);
+console.log('Número flutuante: ', numeroFluante);
+
+const numeroInteiro = parseInt(12);
+console.log('Número inteiro: ', numeroInteiro);
+
+
 
 

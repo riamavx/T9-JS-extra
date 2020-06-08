@@ -6,4 +6,7 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela", "Beatriz"]
 Em seguida, mostre no console.log*/
 
 listaNomes.pop();
+
 console.log(listaNomes)
+
+console.log(listaNomes);
