@@ -8,3 +8,8 @@ Chame a função três vezes com diferentes conjuntos de valores.
 */
 
 
+const calcularIdadeCachorro = function(idade){
+   return idade * 7;
+}
+
+console.log(calcularIdadeCachorro(14))
