@@ -4,9 +4,13 @@ let frase = "Na programação, muitas vezes é errando que se aprende. Permita-s
 
 /*A forma que terá que ficar:*/
 
-let modificarFrase = ["Na", "programação,",
-  "muitas", "vezes", "é", "errando", "que",
-  "se", "aprende.", "Permita-se"]
+// let modificarFrase = ["Na", "programação,",
+//   "muitas", "vezes", "é", "errando", "que",
+//   "se", "aprende.", "Permita-se"]
 
 /* Em seguida, verifique o lenght do array, a saída terá que ser 10*/
 
+
+const splits = frase.split(' ', 10);
+
+console.log(splits);
