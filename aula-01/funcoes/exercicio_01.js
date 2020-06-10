@@ -31,6 +31,8 @@ const pegarNomeCompleto = function(nome,sobrenome){
     bairro: "Centro",
     cidade: "São Paulo",
     uf: "SP"
+
+  
   };
 
   return `A ${nome} ${sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
