@@ -18,3 +18,10 @@ const contadorDeLetras = function(palavra) {
 
 console.log(contadorDeLetras())
 
+function obterPalavra(palavra) {
+  return palavra.length;
+}
+
+const quantidadeLetras = obterPalavra('Ariane');
+
+console.log(quantidadeLetras)

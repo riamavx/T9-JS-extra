@@ -5,11 +5,22 @@
 */
 
 
+
 const animal = {
     porte : "Grande",
     especie : "Cachorro",
     Raca : "Golden"
 
 }
+
+
+let animal = {
+    porte: "Grande",
+    especie: "Cachorro",
+    raca: "Golden"
+}
+
+//verificar objeto
+
 
 console.log(animal)
